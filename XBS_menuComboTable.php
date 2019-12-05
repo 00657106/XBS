@@ -2,7 +2,6 @@
     include_once 'menuDB.xbs.php';
     $sql = "create table Combo(
             ID          nvarchar(15)     not NULL,
-            name        nvarchar(20)     not NULL,
             price       integer(4)      not NULL,
             picture     varchar(200),
             items       nvarchar(4000)  not NULL,
